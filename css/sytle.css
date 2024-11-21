@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body{
+    background-color: beige;
+    padding: 20px;
+    font-family:"Optima", sans-serif;
+    line-height: 1.5;
+}
+
+h1{
+    text-align: center;
+    background-color: beige;
+    border-radius: 20px;
+    font-size: 40px;
+}
+
+h2{
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.title{
+    flex: 1;
+    background-color: lightgrey;
+    border-radius: 20px;
+    padding: 40px;
+    padding-top: 20px;
+}
+
+.ejer1{
+    flex: 1;
+    background-color: lightblue;
+    border-radius: 20px;
+    padding: 40px;
+    padding-top: 20px;
+}
+
+.ejer2{
+    flex: 1;
+    background-color: lightgreen;
+    border-radius: 20px;
+    padding: 40px;
+    padding-top: 20px;
+}
